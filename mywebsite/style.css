@@ -111,7 +111,7 @@
 .github-profile a {
     margin: 0.5rem;
     padding-left: 1.7rem;
-    background-image: url('images/github.png');
+    background-image: url('mywebsite/images/github.png');
     background-repeat: no-repeat;
     background-position: left center;
     background-size: contain;
@@ -119,7 +119,7 @@
 .email-profile a {
     margin: 0.5rem;
     padding-left: 2.5rem;
-    background-image: url('images/envelope.png');
+    background-image: url('mywebsite/images/envelope.png');
     background-repeat: no-repeat;
     background-position: left center;
     background-size: contain;
@@ -127,7 +127,7 @@
 .linkedin-profile a {
     margin: 0.5rem;
     padding-left: 1.5rem;
-    background-image: url('images/linkedin.png');
+    background-image: url('mywebsite/images/linkedin.png');
     background-repeat: no-repeat;
     background-position: left center;
     background-size: contain;
@@ -135,7 +135,7 @@
 .email-credit {
     margin: 0.5rem;
     padding-left: 2.5rem;
-    background-image: url('images/envelope.png');
+    background-image: url('mywebsite/images/envelope.png');
     background-repeat: no-repeat;
     background-position: left center;
     background-size: contain;
@@ -143,7 +143,7 @@
 .linkedin-credit {
     margin: 0.5rem;
     padding-left: 1.5rem;
-    background-image: url('images/linkedin.png');
+    background-image: url('mywebsite/images/linkedin.png');
     background-repeat: no-repeat;
     background-position: left center;
     background-size: contain;
@@ -152,7 +152,7 @@
 .lines-credit {
     margin: 0.5rem;
     padding-left: 3rem;
-    background-image: url('images/linescredit.png');
+    background-image: url('mywebsite/images/linescredit.png');
     background-repeat: no-repeat;
     background-position: left center;
     background-size: contain;
