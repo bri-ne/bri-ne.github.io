@@ -1,0 +1,250 @@
+.gen-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
+}
+.row{
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.col{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.body-col{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.main-body{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.title-box{
+
+    border-color: black;
+    border-width: 1px;
+    border: solid;
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
+}
+.section-box{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:flex-start;
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    align-items: center;
+}
+.outer-box{
+    border: solid;
+    border-color: rgb(212, 120, 135);
+    border-width: 3px;
+    border-radius: 90% 10% / 10% 90%;
+    position: relative;
+    left:5%;
+    top:5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: 80%;
+    min-height: 25%;
+}
+.narrow-blurbs{
+    width: 33%;
+}
+.Aligner-item {
+    max-width: 50%;
+}
+  
+.Aligner-item--top {
+    align-self: flex-start;
+}
+  
+.Aligner-item--bottom {
+    align-self: flex-end;
+}
+
+.frame {
+    width: 250px;
+    height: 300px;
+    border: 3px solid rgb(212, 120, 135);
+    border-radius: 90% 10% / 10% 90%;    
+    margin: auto;
+    position: relative;
+    left: 3%;
+    top: 3%;
+}
+
+.profiles {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+.credit {
+    display: flex;
+    list-style: none;
+    align-content: space-around;
+}
+.github-profile a {
+    margin: 0.5rem;
+    padding-left: 1.7rem;
+    background-image: url('images/github.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+}
+.email-profile a {
+    margin: 0.5rem;
+    padding-left: 2.5rem;
+    background-image: url('images/envelope.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+}
+.linkedin-profile a {
+    margin: 0.5rem;
+    padding-left: 1.5rem;
+    background-image: url('images/linkedin.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+}  
+.email-credit {
+    margin: 0.5rem;
+    padding-left: 2.5rem;
+    background-image: url('images/envelope.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+}
+.linkedin-credit {
+    margin: 0.5rem;
+    padding-left: 1.5rem;
+    background-image: url('images/linkedin.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+}  
+
+.lines-credit {
+    margin: 0.5rem;
+    padding-left: 3rem;
+    background-image: url('images/linescredit.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+}  
+.foot-box{
+    border-top: 3px solid;
+    border-top-color: rgb(212, 120, 135);
+    position: relative;
+    left:5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 80%;
+    align-self: center;
+}
+.footers {
+    font-family: 'Nunito', sans-serif;
+    font-size: small;
+    padding: 1em;
+}
+/*
+old ideas, might come back to
+
+.frame {
+    width: 250px;
+    height: 300px;
+    border: 3px solid rgb(212, 120, 135);
+    border-radius: 50% 100% / 24% 33%;    
+    margin: auto;
+    position: relative;
+    left: 3%;
+    top: 3%;
+}
+
+.inner-box{
+    border: dotted;
+    border-color: black;
+    background-color: blanchedalmond;
+    border-width: 3px;
+    color:brown;
+    position: absolute;
+    left:25%;
+    top:25%;
+
+}
+*/
+ul {
+    font-family: 'Nunito', sans-serif;
+    font-size: medium;
+    padding: 1em;
+}
+p {
+    font-family: 'Nunito', sans-serif;
+    font-size: medium;
+    padding: 1em;
+
+}
+
+h1{
+    font-family: 'Nunito', sans-serif;
+    font-size: x-large;
+    padding: 1em;  
+}
+h2{
+    font-family: 'Nunito', sans-serif;
+    font-size: large;
+    font-style:bold;
+    padding: 1em;
+}
+h3{
+    font-family: 'Nunito', sans-serif;
+    font-size: medium;
+    font-style:italic;
+    padding: 1em;
+}
+h4{
+    font-family: 'Nunito', sans-serif;
+    font-size: medium;
+    padding: 1em;
+}
+.section-title{
+    font-family: 'Nunito', sans-serif;
+    font-size: 3em;
+}
+a:link {
+    color: rgb(212, 120, 135);
+}
+
+a:visited {
+    color: rgb(212, 120, 135);
+}
+
+a:hover {
+    text-decoration: none;
+}
