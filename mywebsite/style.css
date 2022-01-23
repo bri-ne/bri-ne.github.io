@@ -36,8 +36,8 @@
 .title-box{
 
     border-color: black;
-    border-width: 1px;
-    border: solid;
+    border-width: 3px;
+    border-style: solid;
     height: fit-content;
     width: fit-content;
     display: flex;
@@ -45,6 +45,13 @@
     justify-content: center;
     align-self: center;
 }
+.subtitle-box{
+
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+}    
+
 .section-box{
     width: auto;
     height: auto;
@@ -204,6 +211,12 @@ ul {
     font-size: medium;
     padding: 1em;
 }
+.ul2 {
+    font-family: 'Nunito', sans-serif;
+    font-size: medium;
+    padding-left: 40px;
+}
+
 p {
     font-family: 'Nunito', sans-serif;
     font-size: medium;
@@ -242,6 +255,11 @@ h5{
 .section-title{
     font-family: 'Nunito', sans-serif;
     font-size: 3em;
+}
+.subtitle{
+    font-family: 'Nunito', sans-serif;
+    font-size: larger;
+    font-style: bold;
 }
 a:link {
     color: rgb(212, 120, 135);
