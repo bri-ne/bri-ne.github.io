@@ -138,6 +138,14 @@
     background-repeat: no-repeat;
     background-position: left center;
     background-size: contain;
+}
+.resume-profile a {
+    margin: 0.5rem;
+    padding-left: 1.5rem;
+    background-image: url('images/resume.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
 }  
 .email-credit {
     margin: 0.5rem;
@@ -160,6 +168,14 @@
     margin: 0.5rem;
     padding-left: 3rem;
     background-image: url('images/linescredit.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+} 
+.resume-credit {
+    margin: 0.5rem;
+    padding-left: 3rem;
+    background-image: url('images/resumecredit.png');
     background-repeat: no-repeat;
     background-position: left center;
     background-size: contain;
