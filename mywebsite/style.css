@@ -53,7 +53,7 @@
     border-left-width: 1px;
     border-right-width: 1px;
     border-bottom-width: 1px;
-    border-left-style: solid;
+
     border-bottom-style: solid;
 
 }    
@@ -180,7 +180,7 @@
 } 
 .resume-credit {
     margin: 0.5rem;
-    padding-left: 3rem;
+    padding-left: 1.5rem;
     background-image: url('images/resumecredit.png');
     background-repeat: no-repeat;
     background-position: left center;
