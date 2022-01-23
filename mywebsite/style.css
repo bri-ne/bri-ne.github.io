@@ -233,6 +233,12 @@ h4{
     font-size: medium;
     padding: 1em;
 }
+h5{
+    font-family: 'Nunito', sans-serif;
+    font-size: smaller;
+    font-style:bold;
+    padding: 1em;
+}
 .section-title{
     font-family: 'Nunito', sans-serif;
     font-size: 3em;
