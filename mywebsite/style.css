@@ -50,10 +50,11 @@
     border-left: black;
     border-right: black;
     border-bottom: black;
+    border-top: black;
     border-left-width: 1px;
     border-right-width: 1px;
     border-bottom-width: 1px;
-
+    border-top-width: 1px;
     border-bottom-style: solid;
 
 }    
@@ -293,4 +294,8 @@ a:visited {
 
 a:hover {
     text-decoration: none;
+}
+.resume-list{
+    margin-bottom: 8px; 
+    list-style: outside;
 }
