@@ -47,9 +47,15 @@
 }
 .subtitle-box{
 
-    border-color: black;
-    border-width: 1px;
-    border-style: solid;
+    border-left: black;
+    border-right: black;
+    border-bottom: black;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-style: solid;
+    border-bottom-style: solid;
+
 }    
 
 .section-box{
