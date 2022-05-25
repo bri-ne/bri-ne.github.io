@@ -1,0 +1,469 @@
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Work Sans', sans-serif;
+  width: 100%;
+  height: 100%;
+  color: #f2f2f2;
+
+}
+.gen-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
+}
+.row{
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.row-aboutme{
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  
+}
+
+.colTop{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.col{
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.body-col{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.narrow-col{
+  width: 33%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.main-body-aboutme{
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  justify-content: space-between;
+  flex-direction: row;
+  background-color: #ebc934;
+  border: 7px #000000 solid;
+  
+}
+.self-photo{
+  width: 250px; 
+  height: 300px; 
+  object-fit: cover; 
+  object-position: 100% 0;
+  position: relative;
+}
+.aboutme-textspacing{
+  margin-top: -5%;
+}
+
+.aboutme-text{
+  padding-left: 10%;
+  color:#1F1F1F;
+
+}
+
+.main-body{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.title-box{
+
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
+}
+.subtitle-box{
+
+    border-left: black;
+    border-right: black;
+    border-bottom: black;
+    border-top: black;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+    border-bottom-style: solid;
+}    
+
+.imageBanner{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.imageBannerimg{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.titlecontainer{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  flex-direction: row;
+  background-color: #1F1F1F;
+  padding-top:3rem;
+}
+
+.backgroundC{
+  background-color: #1F1F1F;
+}
+.section-box{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:flex-start;
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    align-items: center;
+}
+.section-decobox{
+  border-color: black;
+  border-width: 3px;
+  border-style: solid;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-self: center;
+  height: 1.5rem;
+  width: 59%;
+  align-content: center;
+  background-color: black;
+}
+
+.project-box{
+  border-color: black;
+  border-width: 3px;
+  border-style: solid;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-self: center;
+  height: 15rem;
+  align-content: end;
+  width: auto;
+}
+.project-link{
+  background-color: #000000; 
+  width: 100%; 
+  text-align: right;
+
+}
+
+
+.outer-box{
+    border: solid;
+    border-color: #ebc934;
+    border-width: 3px;
+    border-radius: 90% 10% / 10% 90%;
+    position: relative;
+    left:5%;
+    top:5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: 80%;
+    min-height: 25%;
+}
+.narrow-blurbs{
+    width: 33%;
+}
+.Aligner-item {
+    max-width: 50%;
+}
+  
+.Aligner-item--top {
+    align-self: flex-start;
+}
+  
+.Aligner-item--bottom {
+    align-self: flex-end;
+}
+
+.frame {
+    width: 250px;
+    height: 300px;
+    border: 3px solid #000000;  
+    margin: auto;
+    position: relative;
+    left: 3%;
+    top: 3%;
+}
+
+.profiles {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+.credit {
+    display: flex;
+    list-style: none;
+    align-content: space-around;
+}
+a:link {
+  color: #ebc934;
+}
+
+a:visited {
+  color: #ebc934;
+}
+.aboutme-textspacing a:link {
+  color: #1F1F1F;
+}
+
+.aboutme-textspacing a:visited {
+  color: #1F1F1F;
+}
+.aboutme-text a:link {
+  color: #1F1F1F;
+}
+
+.aboutme-text a:visited {
+  color: #1F1F1F;
+}
+.github-profile a {
+    margin: 0.5rem;
+    padding-left: 1.7rem;
+    background-image: url('images/github.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+}
+.email-profile a {
+    margin: 0.5rem;
+    padding-left: 2.5rem;
+    background-image: url('images/envelope.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+}
+.linkedin-profile a {
+    margin: 0.5rem;
+    padding-left: 1.5rem;
+    background-image: url('images/linkedin.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+}
+.resume-profile a {
+    margin: 0.5rem;
+    padding-left: 1.5rem;
+    background-image: url('images/resume.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+}  
+.email-credit {
+    margin: 0.5rem;
+    padding-left: 2.5rem;
+    background-image: url('images/envelope.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+}
+.linkedin-credit {
+    margin: 0.5rem;
+    padding-left: 1.5rem;
+    background-image: url('images/linkedin.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+}  
+
+.lines-credit {
+    margin: 0.5rem;
+    padding-left: 3rem;
+    background-image: url('images/linescredit.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+} 
+.resume-credit {
+    margin: 0.5rem;
+    padding-left: 1.5rem;
+    background-image: url('images/resumecredit.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+}  
+.foot-box{
+    border-top: 3px solid;
+    border-top-color: #ebc934;
+    position: relative;
+    left:5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 80%;
+    align-self: center;
+}
+.footers {
+    font-family: 'Nunito', sans-serif;
+    font-size: small;
+    padding: 1em;
+}
+
+
+
+/*
+old ideas, might come back to
+
+.frame {
+    width: 250px;
+    height: 300px;
+    border: 3px solid #ebc934;
+    border-radius: 50% 100% / 24% 33%;    
+    margin: auto;
+    position: relative;
+    left: 3%;
+    top: 3%;
+}
+
+.inner-box{
+    border: dotted;
+    border-color: black;
+    background-color: blanchedalmond;
+    border-width: 3px;
+    color:brown;
+    position: absolute;
+    left:25%;
+    top:25%;
+
+}
+*/
+ul {
+    font-family: 'Nunito', sans-serif;
+    font-size: medium;
+    padding: 1em;
+}
+.ul2 {
+    font-family: 'Nunito', sans-serif;
+    font-size: medium;
+    padding-left: 40px;
+}
+
+p {
+    font-family: 'Nunito', sans-serif;
+    font-size: medium;
+    padding: 1em;
+
+}
+
+h1{
+    font-family: 'Nunito', sans-serif;
+    font-size: x-large;
+    padding: 1em;  
+}
+h2{
+    font-family: 'Nunito', sans-serif;
+    font-size: large;
+    font-style:bold;
+    padding: 1em;
+}
+h3{
+    font-family: 'Nunito', sans-serif;
+    font-size: medium;
+    font-style:italic;
+    padding: 10%;
+}
+h4{
+    font-family: 'Nunito', sans-serif;
+    font-size: medium;
+    padding: 1em;
+}
+h5{
+    font-family: 'Nunito', sans-serif;
+    font-size: smaller;
+    font-style:bold;
+    padding: 1em;
+}
+.section-title{
+    font-family: 'Nunito', sans-serif;
+    font-size: 3em;
+    width: 40%;
+}
+.subtitle{
+    font-family: 'Nunito', sans-serif;
+    font-size: larger;
+    font-style: bold;
+}
+
+
+
+a:hover {
+    text-decoration: none;
+}
+.resume-list{
+    margin-bottom: 8px; 
+    list-style: outside;
+}
+
+.profiles li {
+  margin-top: 10px;
+}
+
+/* Phone CSS */
+@media screen and (max-width: 916px) {
+
+
+  .project-box{
+    width: 100%;
+  }
+  .narrow-col{
+    width: 100%;
+  }
+
+  .main-body{
+    flex-direction: column;
+  }
+
+  h3{
+    padding: 5%;
+  }
+
+}
