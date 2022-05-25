@@ -376,6 +376,9 @@ h5{
 a:hover {
     text-decoration: none;
 }
+.profiles li {
+  margin-top: 10px;
+}
 
 @media screen and (max-width: 916px){
   .credit{
