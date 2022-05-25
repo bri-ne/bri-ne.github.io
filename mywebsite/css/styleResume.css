@@ -111,6 +111,20 @@ a:visited {
     
 
 }   */ 
+.resume-list{
+  margin-bottom: 8px; 
+  list-style: outside;
+}
+ul {
+font-family: 'Nunito', sans-serif;
+font-size: medium;
+padding: 1em;
+list-style-type: circle;
+}
+.resume-list li {
+margin-bottom: 8px; 
+list-style: outside circle;
+}
 
 .subtitle-box{
   border-color: black;
@@ -194,6 +208,7 @@ a:visited {
     display: flex;
     list-style: none;
     align-content: space-around;
+    flex-direction: row;
 }
 .github-profile a {
     margin: 0.5rem;
@@ -302,11 +317,7 @@ old ideas, might come back to
 
 }
 */
-ul {
-    font-family: 'Nunito', sans-serif;
-    font-size: medium;
-    padding: 1em;
-}
+
 .ul2 {
     font-family: 'Nunito', sans-serif;
     font-size: medium;
@@ -359,11 +370,24 @@ h5{
     padding: 1rem;
 }
 
-
+.toplist{
+    font-style: bold;
+}
 a:hover {
     text-decoration: none;
 }
-.resume-list{
-    margin-bottom: 8px; 
-    list-style: outside;
+
+@media screen and (max-width: 916px){
+  .credit{
+    flex-direction: column;
+  }
+  .linkedin-credit{
+    padding-left: 4.5rem;
+  }
+  .email-credit{
+    padding-left: 4.5rem;
+  }
+  .resume-credit{
+    padding-left: 4.5rem;
+  }
 }
