@@ -24,9 +24,11 @@ body {
 .row-aboutme{
   width: 80%;
   height: 100%;
+  padding-left: 10%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  padding-top: 0;
   
 }
 
@@ -96,6 +98,7 @@ body {
     align-self: center;
     justify-content: space-between;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 .title-box{
 
@@ -108,7 +111,18 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-self: center;
+
 }
+.title-box-text{
+  font-size: 1.75em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-family: 'Work Sans', sans-serif;
+  padding: 1rem;
+}
+
 .subtitle-box{
 
     border-left: black;
@@ -144,6 +158,7 @@ body {
   flex-direction: row;
   background-color: #1F1F1F;
   padding-top:3rem;
+  padding-bottom: 0;
 }
 
 .backgroundC{
@@ -244,6 +259,7 @@ body {
     display: flex;
     list-style: none;
     align-content: space-around;
+    flex-direction: row;
 }
 a:link {
   color: #ebc934;
@@ -448,7 +464,7 @@ a:hover {
 }
 
 /* Phone CSS */
-@media screen and (max-width: 916px) {
+/*@media screen and (max-width: 375px) {
 
 
   .project-box{
@@ -466,4 +482,59 @@ a:hover {
     padding: 5%;
   }
 
+}*/
+@media screen and (max-width: 927px) {
+  .imageBanner {
+    height: 105px;
+  }
+
+  .project-box{
+    width: 100%;
+  }
+  .narrow-col{
+    width: 100%;
+  }
+
+  .main-body{
+    flex-direction: column;
+  }
+
+  h3{
+    padding: 5%;
+  }
+
+  .titlecontainer{
+    flex-direction: column;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .title-box{
+    border-width: 2px;
+    width: 95%;
+    height: 100%;
+    background-color: #1f1f1f;
+  }
+
+  .title-box-text{
+    font-size: 1rem;
+  }
+  .row-aboutme{
+    flex-direction: column;
+    padding-left: 0;
+    padding-top: 0.5rem;
+  }
+
+  .credit{
+    flex-direction: column;
+  }
+  .linkedin-credit{
+    padding-left: 4.5rem;
+  }
+  .email-credit{
+    padding-left: 4.5rem;
+  }
+  .resume-credit{
+    padding-left: 4.5rem;
+  }
 }
