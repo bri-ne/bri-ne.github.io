@@ -401,6 +401,31 @@ a:hover {
   margin-top: 10px;
 }
 
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border:none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: rgb(0, 0, 0, 0.5); /* Set a background color */
+  color: #f2f2f2; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 20px 25px 20px 25px;
+  border-radius: 1px; /* Rounded corners */
+  font-size: 1.5rem; /* Increase font size */
+  font-family:  'Work Sans', sans-serif;
+  font-weight: 700;
+  text-transform: lowercase;
+  transition: 0.2s ease;
+}
+
+#myBtn:hover {
+  color: #ebc934;
+  transition: 0.2s ease;
+}
+
 @media screen and (max-width: 946px){
   .credit{
     flex-direction: column;
