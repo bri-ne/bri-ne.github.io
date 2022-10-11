@@ -70,7 +70,7 @@ body {
   align-self: center;
   justify-content: space-between;
   flex-direction: row;
-  background-color: #ebc934;
+  background-color: #D6B72A;
   border: 7px #000000 solid;
   
 }
@@ -102,7 +102,7 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
 }
-.title-box{
+.title-box-a{
 
     border-color: black;
     border-width: 3px;
@@ -113,8 +113,28 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-self: center;
+    background-color: rgba(0, 0, 0, 0.35);
+    
 
 }
+
+.title-box{
+
+  border-color: black;
+  border-width: 3px;
+  border-style: solid;
+  height: fit-content;
+  width: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-self: center;
+  background-color: rgba(0, 0, 0, 0.35);
+  padding-left: 1rem;
+  padding-top: 0;
+}
+
+
 .title-box-text{
   font-size: 1.75em;
   margin-top: 0.67em;
@@ -538,9 +558,19 @@ a:hover {
 
   .title-box{
     border-width: 2px;
+    width: 0;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.35);
+    padding-left: 0;
+    padding-top: 1rem;
+
+  }
+
+  .title-box-a{
+    border-width: 2px;
     width: 95%;
     height: 100%;
-    background-color: #1f1f1f;
+    background-color: rgba(0, 0, 0, 0.35);
   }
 
   .title-box-text{
