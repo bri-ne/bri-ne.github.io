@@ -530,6 +530,35 @@ a:hover {
   color: #ebc934;
   transition: 0.2s ease;
 }
+/*accordion stuff ------------------------------*/
+
+#accordion {
+  width: 100%;
+  margin:0 auto;
+}
+
+.accord-header {
+  display:flex;
+  padding:10px; 
+  cursor: pointer;
+  background-color: rgb(0, 0, 0, 0.5);
+  border:1px solid #1f1f1f;
+}
+
+.title {
+  flex:1;
+}
+
+.icon {
+  width:20px;
+} 
+
+.accord-content {
+  display: none;
+  padding:10px;
+  border:1px solid rgb(0, 0, 0, 0.5);
+} 
+/*end accordion stuff*/
 @media screen and (max-width: 927px) {
   .imageBanner {
     height: 105px;

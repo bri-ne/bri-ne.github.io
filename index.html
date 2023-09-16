@@ -109,14 +109,19 @@
             </div>
             <!-- Project Content 1 -->
             <div class="gen-container ">
-              <p>
-                This project investigates the spatial pattern of structure fires and fire risk factors across Guilford County, 
-                North Carolina with the purpose of building a model to predict future fire risk. The model uses 
-                information from past fires and latent risk to inform predictions in order to equip  
-                Guilford County EMS with a deeper understanding of where there is exposure to risk of structure fires 
-                and which parts of the county exhibit greater vulnerability, so that they can make data-driven decisions 
-                around how to establish a common standard of cover.
-              </p>
+              <section id="accordion">
+              <div class="accord-header" onclick="openaccordion('1')">Read More</div>
+              <div class="accord-content" id="accord-content-1">
+                <p>
+                  This project investigates the spatial pattern of structure fires and fire risk factors across Guilford County, 
+                  North Carolina with the purpose of building a model to predict future fire risk. The model uses 
+                  information from past fires and latent risk to inform predictions in order to equip  
+                  Guilford County EMS with a deeper understanding of where there is exposure to risk of structure fires 
+                  and which parts of the county exhibit greater vulnerability, so that they can make data-driven decisions 
+                  around how to establish a common standard of cover.
+                </p>
+              </div>
+            </section>
             </div>
           </div>
           <div class="narrow-col">
@@ -267,6 +272,6 @@
     </div> 
     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button> 
     <script src="mywebsite/js/topbutton.js"></script>
-    
+    <script src="mywebsite/js/accordion.js"></script>
   </body>
 </html>
