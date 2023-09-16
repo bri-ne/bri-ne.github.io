@@ -13,7 +13,24 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-self: center;
+    width:95%;
+    border: 3px black solid;
 }
+
+
+
+.project-title-1 {
+  content: "";
+  background-image: url('./images/SpatialSplits2.jpg');
+  background-size: cover;
+  background-color: rgba(0,0,0,0.5);
+  font-family: 'Nunito', sans-serif;
+  font-size: medium;
+  font-style:italic;
+  padding: 10%;
+}
+
+
 .row{
     width: auto;
     height: 100%;
@@ -61,6 +78,8 @@ body {
   height: auto;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  padding-bottom: 2%;
 }
 .main-body-aboutme{
   box-sizing: border-box;
@@ -114,8 +133,6 @@ body {
     justify-content: center;
     align-self: center;
     background-color: rgba(0, 0, 0, 0.35);
-    
-
 }
 
 .title-box{
@@ -222,13 +239,36 @@ body {
   align-self: center;
   height: 15rem;
   align-content: end;
-  width: auto;
+  width: 95%;
+  position:relative;
+  /*content: "";
+  background-image: url('./images/SpatialSplits2.jpg');
+  background-size: cover;*/
 }
+
+.bg-image {
+  opacity: 0.3;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.bg-img-title {
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  right:5%;
+  text-align: center;
+}
+
 .project-link{
   background-color: #000000; 
-  width: 100%; 
+  width: 95%; 
   text-align: right;
-
+  display: flex;
+  flex-direction: row;
+  border:black solid 3px;
+  align-items: center;
 }
 
 
@@ -447,12 +487,25 @@ h3{
     font-family: 'Nunito', sans-serif;
     font-size: medium;
     font-style:italic;
-    padding: 10%;
+    padding: 1em;
+    text-align: left;
 }
 h4{
-    font-family: 'Nunito', sans-serif;
-    font-size: medium;
-    padding: 1em;
+  font-family: 'Nunito', sans-serif;
+  font-size: small;
+  padding: 1em;
+  border-top-left-radius: 75%;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 75%;
+  border-bottom-left-radius: 50%;
+  border-top: #1f1f1f solid 3px;
+  border-bottom: #1f1f1f solid 3px;
+  border-left: #1f1f1f solid 3px;
+  border-right: #1f1f1f solid 3px;
+  text-align: center;
+  padding: 1rem;
+  /*background-color: #1f1f1f;*/
+  margin-right: 2%;
 }
 h5{
     font-family: 'Nunito', sans-serif;
@@ -538,11 +591,12 @@ a:hover {
 }
 
 .accord-header {
-  display:flex;
   padding:10px; 
   cursor: pointer;
   background-color: rgb(0, 0, 0, 0.5);
   border:1px solid #1f1f1f;
+  font-family: 'Nunito', sans-serif;
+  font-size: small;
 }
 
 .title {
@@ -553,7 +607,37 @@ a:hover {
   width:20px;
 } 
 
-.accord-content {
+#accord-content-1 {
+  display: none;
+  padding:10px;
+  border:1px solid rgb(0, 0, 0, 0.5);
+} 
+#accord-content-2 {
+  display: none;
+  padding:10px;
+  border:1px solid rgb(0, 0, 0, 0.5);
+} 
+#accord-content-3 {
+  display: none;
+  padding:10px;
+  border:1px solid rgb(0, 0, 0, 0.5);
+} 
+#accord-content-4 {
+  display: none;
+  padding:10px;
+  border:1px solid rgb(0, 0, 0, 0.5);
+} 
+#accord-content-5 {
+  display: none;
+  padding:10px;
+  border:1px solid rgb(0, 0, 0, 0.5);
+} 
+#accord-content-6 {
+  display: none;
+  padding:10px;
+  border:1px solid rgb(0, 0, 0, 0.5);
+} 
+#accord-content-7 {
   display: none;
   padding:10px;
   border:1px solid rgb(0, 0, 0, 0.5);
@@ -566,6 +650,12 @@ a:hover {
 
   .project-box{
     width: 100%;
+  }
+  .gen-container{
+    width: 100%; 
+  }
+  .project-link{
+    width: 100%; 
   }
   .narrow-col{
     width: 100%;
