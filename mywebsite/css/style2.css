@@ -17,7 +17,26 @@ body {
     border: 3px black solid;
 }
 
+.gen-container2{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  width:100%;
+  background: #b57d05;
+}
 
+.bby-container{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-self: center;
+  align-items: center;
+  width:80%;
+}
 
 .project-title-1 {
   content: "";
@@ -160,6 +179,18 @@ body {
   margin-right: 0;
   font-family: 'Work Sans', sans-serif;
   padding: 1rem;
+}
+
+.title-box-text2{
+  font-size: xx-large;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-family: 'Work Sans', sans-serif;
+  padding: 1rem;
+  color: #1f1f1f;
+  font-weight: 700;
 }
 
 .subtitle-box{
