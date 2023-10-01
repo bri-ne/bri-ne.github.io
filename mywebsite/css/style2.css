@@ -744,5 +744,8 @@ a:hover {
   .resume-credit{
     padding-left: 4.5rem;
   }
+  .bby-container{
+    flex-direction: column;
+  }
 }
 
