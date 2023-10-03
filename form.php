@@ -1,1 +1,1 @@
-<?php echo file_get_contents($_REQUEST['url']); ?>
+<?php echo file_get_contents($_REQUEST['?url=https://cryptpad.fr/form/#/2/form/view/NLXkJgtJWccf3xfhbN83X8k8Ws7zkvB9JO-4QThtS5s/']); ?>
