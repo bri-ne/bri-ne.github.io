@@ -86,9 +86,9 @@ button {
     font-family: 'Work Sans', sans-serif;
   }
 
-  .spookytext p{
-    font-weight: 600;
-    font-style: italic;
+  p {
+    padding-left: 1rem; 
+    padding-right: 1rem;
   }
   .adddress{
     font-weight: 450;
@@ -189,5 +189,9 @@ button {
     }
     .button-container{
       padding-left:1.5rem;
+    }
+    p{
+      padding-left: 0; 
+      padding-right: 0;
     }
   }
