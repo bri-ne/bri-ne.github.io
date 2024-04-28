@@ -260,6 +260,10 @@ body {
   background-image: url('./images/SpatialSplits2.jpg');
   background-size: cover;*/
 }
+.title-box-a:hover{
+  background-color: #1F1F1F;
+  transition: 0.5s ease;
+}
 
 .bg-image {
   opacity: 0.3;
@@ -340,11 +344,13 @@ body {
 }
 a:link {
   color: #ebc934;
+  text-decoration:none;
 }
 
 a:visited {
   color: #ebc934;
 }
+
 .aboutme-textspacing a:link {
   color: #1F1F1F;
 }
@@ -522,6 +528,11 @@ h4{
   /*background-color: #1f1f1f;*/
   margin-right: 2%;
 }
+.project-link h4:hover{
+  background-color: #1F1F1F;
+  transition: 0.5s ease;
+}
+
 h5{
     font-family: 'Nunito', sans-serif;
     font-size: smaller;
@@ -542,7 +553,12 @@ h5{
 
 
 a:hover {
-    text-decoration: none;
+    text-decoration: underline wavy;
+    transition: 1s ease;
+}
+
+h4 a:hover{
+  text-decoration: none;
 }
 .resume-list{
     margin-bottom: 8px; 
@@ -613,6 +629,12 @@ a:hover {
   font-family: 'Nunito', sans-serif;
   font-size: small;
 }
+.accord-header:hover {
+  background-color: #1F1F1F;
+  text-decoration: underline;
+  transition: 0.5s ease;
+}
+
 
 .title {
   flex:1;
