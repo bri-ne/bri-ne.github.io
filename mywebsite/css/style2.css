@@ -483,7 +483,12 @@ ul {
 .ul2 {
     font-family: 'Nunito', sans-serif;
     font-size: medium;
-    padding-left: 40px;
+    padding-left: 40px; 
+    margin-top: -25px; 
+    
+}
+.ul2 li{
+  margin-bottom: 10px; 
 }
 
 p {
@@ -528,6 +533,8 @@ h4{
   /*background-color: #1f1f1f;*/
   margin-right: 2%;
 }
+
+
 .project-link h4:hover{
   background-color: #1F1F1F;
   transition: 0.5s ease;
@@ -553,12 +560,14 @@ h5{
 
 
 a:hover {
-    text-decoration: underline wavy;
-    transition: 1s ease;
+    text-decoration: underline;
+    transition: 1.5s ease;
 }
 
 h4 a:hover{
-  text-decoration: none;
+  text-decoration: underline;
+  background-color: #1f1f1f;
+  transition: 1s ease;
 }
 .resume-list{
     margin-bottom: 8px; 
