@@ -653,37 +653,7 @@ h4 a:hover{
   width:20px;
 } 
 
-#accord-content-1 {
-  display: none;
-  padding:10px;
-  border:1px solid rgb(0, 0, 0, 0.5);
-} 
-#accord-content-2 {
-  display: none;
-  padding:10px;
-  border:1px solid rgb(0, 0, 0, 0.5);
-} 
-#accord-content-3 {
-  display: none;
-  padding:10px;
-  border:1px solid rgb(0, 0, 0, 0.5);
-} 
-#accord-content-4 {
-  display: none;
-  padding:10px;
-  border:1px solid rgb(0, 0, 0, 0.5);
-} 
-#accord-content-5 {
-  display: none;
-  padding:10px;
-  border:1px solid rgb(0, 0, 0, 0.5);
-} 
-#accord-content-6 {
-  display: none;
-  padding:10px;
-  border:1px solid rgb(0, 0, 0, 0.5);
-} 
-#accord-content-7 {
+#accord-content-1,#accord-content-2,#accord-content-3,#accord-content-4,#accord-content-5,#accord-content-6,#accord-content-7,#accord-content-8,#accord-content-9,#accord-content-10 {
   display: none;
   padding:10px;
   border:1px solid rgb(0, 0, 0, 0.5);
